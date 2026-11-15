@@ -58,7 +58,7 @@ if 'user' not in st.session_state:
     with signin:
         st.subheader('Your workspace awaits.')
         st.caption('Sign in to keep your brand moving forward.')
-        st.info('Demo credentials — as requested by the hackathon organisers, these are displayed here on the website UI for judges and evaluators.\n\nCreator: `creator` · Reviewer: `reviewer` · Manager: `manager`\n\nPassword for all three accounts: `BrandShield!2026`')
+        st.info('Demo credentials — \n\nCreator: `creator` · Reviewer: `reviewer` · Manager: `manager`\n\nPassword for all three accounts: `BrandShield!2026`')
         with st.form('login'):
             username = st.text_input('Username', placeholder='Enter your username')
             password = st.text_input(
